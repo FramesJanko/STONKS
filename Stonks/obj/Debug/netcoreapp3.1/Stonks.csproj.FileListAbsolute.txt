@@ -1,0 +1,13 @@
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\bin\Debug\netcoreapp3.1\Stonks.exe
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\bin\Debug\netcoreapp3.1\Stonks.deps.json
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\bin\Debug\netcoreapp3.1\Stonks.runtimeconfig.json
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\bin\Debug\netcoreapp3.1\Stonks.runtimeconfig.dev.json
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\bin\Debug\netcoreapp3.1\Stonks.dll
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\bin\Debug\netcoreapp3.1\Stonks.pdb
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\obj\Debug\netcoreapp3.1\Stonks.csprojAssemblyReference.cache
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\obj\Debug\netcoreapp3.1\Stonks.AssemblyInfoInputs.cache
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\obj\Debug\netcoreapp3.1\Stonks.AssemblyInfo.cs
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\obj\Debug\netcoreapp3.1\Stonks.csproj.CoreCompileInputs.cache
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\obj\Debug\netcoreapp3.1\Stonks.dll
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\obj\Debug\netcoreapp3.1\Stonks.pdb
+C:\Users\rheck\OneDrive\Documents\GitHub\Stonks\Stonks\obj\Debug\netcoreapp3.1\Stonks.genruntimeconfig.cache
