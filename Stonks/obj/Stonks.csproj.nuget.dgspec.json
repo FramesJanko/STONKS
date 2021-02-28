@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\Stonks\\Stonks\\Stonks.csproj": {}
+    "C:\\Users\\Robby\\Documents\\GitHub\\STONKS\\Stonks\\Stonks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\Stonks\\Stonks\\Stonks.csproj": {
+    "C:\\Users\\Robby\\Documents\\GitHub\\STONKS\\Stonks\\Stonks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\Stonks\\Stonks\\Stonks.csproj",
+        "projectUniqueName": "C:\\Users\\Robby\\Documents\\GitHub\\STONKS\\Stonks\\Stonks.csproj",
         "projectName": "Stonks",
-        "projectPath": "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\Stonks\\Stonks\\Stonks.csproj",
-        "packagesPath": "C:\\Users\\rheck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\Stonks\\Stonks\\obj\\",
+        "projectPath": "C:\\Users\\Robby\\Documents\\GitHub\\STONKS\\Stonks\\Stonks.csproj",
+        "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robby\\Documents\\GitHub\\STONKS\\Stonks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rheck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,14 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.5.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
         }
       }
     }
