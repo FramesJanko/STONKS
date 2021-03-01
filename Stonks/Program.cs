@@ -16,7 +16,11 @@ namespace Stonks
         static async Task Main(string[] args)
         {
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
-            var file = new FileInfo(@"C:\Users\Robby\Documents\GitHub\STONKS\DemoStonkData.xlsx");
+            string workingDirectory = Environment.CurrentDirectory;
+            string path = Directory.GetParent(workingDirectory).Parent.Parent.FullName + "\\DemoStonkData.xlsx";
+            Console.WriteLine("File located at " + path);
+            //C:\Users\Robby\Documents\GitHub\STONKS\
+            var file = new FileInfo(path);
 
             var stocks = GetSetupData();
 
@@ -48,7 +52,7 @@ namespace Stonks
         {
             List<StockModel> output = new()
             {
-                new() { Id = 1, Name = "Gamestop", Ticker = "GME", Open = 160.5f, Close = 101.4f, High = 176.98f, Low = 84.54f },
+                new() { Id = 1, Name = "Gamestop", Ticker = "GME", Open = 161.5f, Close = 101.4f, High = 176.98f, Low = 84.54f },
                 new() { Id = 2, Name = "Wingstop", Ticker = "WING", Open = 130.5f, Close = 135.8f, High = 136.75f, Low = 129.87f},
                 new() { Id = 3,  Name = "Aphria", Ticker = "APHA", Open = 19.88f, Close = 20.74f, High = 20.74f, Low = 18.99f },
             };
