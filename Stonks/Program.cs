@@ -11,15 +11,13 @@ namespace Stonks
     class Program
     {
         
-        
-        
         static async Task Main(string[] args)
         {
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             string workingDirectory = Environment.CurrentDirectory;
             string path = Directory.GetParent(workingDirectory).Parent.Parent.FullName + "\\DemoStonkData.xlsx";
             Console.WriteLine("File located at " + path);
-            //C:\Users\Robby\Documents\GitHub\STONKS\
+            
             var file = new FileInfo(path);
 
             var stocks = GetSetupData();
@@ -29,11 +27,9 @@ namespace Stonks
 
         private static async Task SaveExcelFile(List<StockModel> stocks, FileInfo file)
         {
-            DeleteIfExists(file);
-
             using var package = new ExcelPackage(file);
 
-            string time = DateTime.Today.ToString();
+            string time = DateTime.Now.ToString();
             var xlWorksheet = package.Workbook.Worksheets.Add("Charts: " + time);
             var range = xlWorksheet.Cells["A1"].LoadFromCollection(stocks, true);
             range.AutoFitColumns();
